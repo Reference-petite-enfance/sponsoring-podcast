@@ -123,6 +123,7 @@ header { background: var(--paper); border-bottom: 1px solid var(--line); }
 .quote { background: var(--todo); border: 2px dashed var(--gold); border-radius: 20px; padding: 26px; }
 .quote b { display: block; margin-bottom: 6px; }
 
+.quote-grid.two { grid-template-columns: repeat(2, 1fr); }
 .review { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 26px; display: flex; flex-direction: column; gap: 14px; }
 .stars { color: var(--gold); font-size: 20px; letter-spacing: 3px; line-height: 1; }
 .review blockquote { margin: 0; font-size: 17px; line-height: 1.55; }
@@ -191,7 +192,7 @@ footer { padding: 32px 0 48px; font-size: 14px; color: var(--ink-soft); }
   .hero-grid, .contact-grid { grid-template-columns: 1fr; }
   .stat-grid { grid-template-columns: repeat(2, 1fr); }
   .aud-grid, .pack-grid { grid-template-columns: 1fr; }
-  .quote-grid, .fmt-grid { grid-template-columns: 1fr; }
+  .quote-grid, .quote-grid.two, .fmt-grid { grid-template-columns: 1fr; }
   section { padding: 56px 0; }
   .wave-box { max-width: 420px; }
 }
@@ -308,6 +309,26 @@ footer { padding: 32px 0 48px; font-size: 14px; color: var(--ink-soft); }
       <div class="aud"><h3>Dirigeants de micro-crèches</h3><p>Patrons de TPE et de PME, décisionnaires. Ils veulent mieux comprendre le terrain, améliorer la qualité de vie au travail, retenir leurs équipes et consolider leur santé financière.</p></div>
       <div class="aud"><h3>Porteurs de projet</h3><p>Nouveaux gestionnaires de crèche. Ils cherchent les meilleures solutions pour leur structure et des process concrets de gestion et d'accueil.</p></div>
       <div class="aud"><h3>Managers, équipes, formateurs et institutionnels</h3><p>Cadres et salariés d'EAJE, formateurs, CAF, FFEC, le REMI, PMI, élus. Ils cherchent des process, du sens, des ressources à transmettre et une vision concrète du terrain.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. Témoignages -->
+<section class="band">
+  <div class="wrap">
+    <p class="eyebrow">Témoignages</p>
+    <h2>Ce qu'en disent ceux qui nous ont fait confiance</h2>
+    <div class="quote-grid two">
+      <figure class="review">
+        <div class="stars" role="img" aria-label="5 étoiles sur 5">★★★★★</div>
+        <blockquote><b>Expertise et bienveillance dans notre partenariat</b><br><br>En tant que partenaire nous sommes très fiers de travailler régulièrement avec Amale et Aurélie, notamment en lien avec le podcast.<br><br>Tout d'abord leur expertise est précieuse, plus que maîtrisée et fondée dans le milieu de la petite enfance.<br><br>Les échanges sont toujours très fluides, nous recevons beaucoup de conseils, de bienveillance et lorsque le moment arrive devant le micro, nous sommes tout de suite rassurés&nbsp;!<br><br>Au nom de toute l'équipe Meeko, nous recommandons vivement de travailler avec Référence Petite Enfance.</blockquote>
+        <figcaption>Antoine Makhlouf, fondateur de Meeko</figcaption>
+      </figure>
+      <figure class="review">
+        <div class="stars" role="img" aria-label="5 étoiles sur 5">★★★★★</div>
+        <blockquote>Nous sommes ravis d'avoir collaboré avec Amale notamment dans le cadre d'un accompagnement sur notre démarche qualité. Son expertise sur le secteur de la petite enfance ainsi que son audience au travers du podcast Référence Petite Enfance nous ont permis d'animer notre réseau de crèches partenaires avec des contenus de qualité !</blockquote>
+        <figcaption>Choisir ma crèche<span>Avis Google</span></figcaption>
+      </figure>
     </div>
   </div>
 </section>
